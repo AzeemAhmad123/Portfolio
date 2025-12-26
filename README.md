@@ -33,6 +33,24 @@ A modern, responsive portfolio website showcasing my skills, projects, and exper
 
 Visit the live website: [Portfolio](https://azeemahmad123.github.io/Portfolio/)
 
+## Deployment
+
+### Deploy to Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/AzeemAhmad123/Portfolio)
+
+Or manually:
+1. Install Vercel CLI: `npm i -g vercel`
+2. Run: `vercel`
+3. Follow the prompts
+
+### Deploy to GitHub Pages
+
+1. Go to repository Settings
+2. Navigate to Pages section
+3. Select `main` branch as source
+4. Save and wait for deployment
+
 ## Contact
 
 - **Email**: azeemkhattak60@gmail.com
