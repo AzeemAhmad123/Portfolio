@@ -12,20 +12,25 @@
     <!-- IMPORTANT: Clear browser cache (Ctrl+Shift+Delete) if you see old URLs in console -->
 
     <!-- Load rrweb for visual session replay -->
-    <script src="https://cdn.jsdelivr.net/npm/rrweb@latest/dist/rrweb.min.js"></script>
+<!-- UXCam Analytics SDK - Web (JavaScript) -->
+<!-- Copy and paste this code into the <head> section of your HTML -->
+<!-- IMPORTANT: Clear browser cache (Ctrl+Shift+Delete) if you see old URLs in console -->
 
-    <!-- UXCam SDK Configuration - MUST be set BEFORE SDK loads -->
-    <script>
-      window.UXCamSDK = {
-        key: 'ux_2ce0927ed4aa18342f1719e608cf9ce2',
-        apiUrl: 'https://ux-analytical-tool-gzsn.vercel.app',
-        debug: true  // Enable debug logging to see what API URL is being used
-      };
-      console.log('UXCam SDK Config:', window.UXCamSDK);
-    </script>
+<!-- Load rrweb for visual session replay -->
+<script src="https://cdn.jsdelivr.net/npm/rrweb@latest/dist/rrweb.min.js"></script>
 
-    <!-- Load UXCam SDK with cache-busting -->
-    <script src="https://ux-analytical-tool-ochre.vercel.app/uxcam-sdk-rrweb.js?v=2.1.0" async></script>
+<!-- UXCam SDK Configuration - MUST be set BEFORE SDK loads -->
+<script>
+  window.UXCamSDK = {
+    key: 'ux_2ce0927ed4aa18342f1719e608cf9ce2',
+    apiUrl: 'https://ux-analytical-tool-gzsn.vercel.app',
+    debug: true  // Enable debug logging to see what API URL is being used
+  };
+  console.log('UXCam SDK Config:', window.UXCamSDK);
+</script>
+
+<!-- Load UXCam SDK with cache-busting -->
+<script src="https://ux-analytical-tool-ochre.vercel.app/uxcam-sdk-rrweb.js?v=2.1.0" async></script>
 </head>
 <body>
     <!-- Parallax Star Background -->
