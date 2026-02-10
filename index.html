@@ -9,7 +9,7 @@
     
 <!-- UXCam Analytics SDK - Web (JavaScript) -->
 <!-- Copy and paste this code into the <head> section of your HTML -->
-<!-- IMPORTANT: Clear browser cache (Ctrl+Shift+Delete) if you see old URLs in console -->
+<!-- This will always load the latest SDK version automatically -->
 
 <!-- Load rrweb for visual session replay -->
 <script src="https://cdn.jsdelivr.net/npm/rrweb@latest/dist/rrweb.min.js"></script>
@@ -17,15 +17,16 @@
 <!-- UXCam SDK Configuration - MUST be set BEFORE SDK loads -->
 <script>
   window.UXCamSDK = {
-    key: 'ux_f5cd75623e2442f2cce75a195250a24f',
+    key: 'ux_568c48f7113615199554a1c4c4c4de40',
     apiUrl: 'https://ux-analytical-tool-zbgu.vercel.app',
     debug: true  // Enable debug logging to see what API URL is being used
   };
   console.log('UXCam SDK Config:', window.UXCamSDK);
 </script>
 
-<!-- Load UXCam SDK with cache-busting -->
-<script src="https://ux-analytical-tool-ochre.vercel.app/uxcam-sdk-rrweb.js?v=2.1.0" async></script>
+<!-- Load UXCam SDK (always gets latest version) -->
+<!-- Note: If you experience caching issues, add ?v=2 or clear browser cache -->
+<script src="https://ux-analytical-tool-zbgu.vercel.app/uxcam-sdk-rrweb.js" async></script>
 </head>
 <body>
     <!-- Parallax Star Background -->
